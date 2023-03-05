@@ -1,0 +1,28 @@
+body {
+  background-color: lightblue;
+  background-repeat:no-repeat;
+  background-image:fixed;
+  background-size:cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+table, th, td {
+  border: 1px solid black;
+}.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
